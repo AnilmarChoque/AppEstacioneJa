@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppEstacioneJa.Views.Vagas.ListagemVagasView"
+             Title="ListagemVagasView"
+             NavigationPage.HasNavigationBar="False">
+    <Grid>
+        <Image Source="fundopadrao.png" 
+        Aspect="AspectFill" />
+
+        <StackLayout VerticalOptions="Start" HorizontalOptions="Start">
+            <Frame CornerRadius="80" WidthRequest="80" HeightRequest="80" HasShadow="False" Margin="290,25,0,0">
+                <Image Source="gerente.png" Aspect="AspectFill" WidthRequest="90" HeightRequest="90" Margin="0,12,20,0"/>
+            </Frame>
+        </StackLayout>
+
+        <StackLayout VerticalOptions="Start" HorizontalOptions="Start">
+            <Label Text="Mapa do estacionamento" Margin="60,165,0,0" FontSize="23"></Label>
+        </StackLayout>
+
+        <VerticalStackLayout>
+            <ImageButton Source="backarrowicon.png" WidthRequest="20" HeightRequest="20" Margin="0,170,350,0" Command="{Binding DirecionarEntradaCommand}"/>
+        </VerticalStackLayout>
+
+        <StackLayout VerticalOptions="Start" HorizontalOptions="Start">
+            <Frame BackgroundColor="#f0f0f0" CornerRadius="10" Padding="30,10,210,10" Margin="25,210,0,0">
+                <Label Text="Sessão A1" TextColor="#000000" FontSize="20" />
+            </Frame>
+        </StackLayout>
+
+        <StackLayout VerticalOptions="Start" HorizontalOptions="Start">
+            <Frame BackgroundColor="{Binding BackgroundColor2}" CornerRadius="10" Padding="5,5,50,2" Margin="30,310,0,0">
+                <Image Source="deficiente.png"  WidthRequest="30" HeightRequest="30" Margin="0,20,0,0"/>
+            </Frame>
+        </StackLayout>
+        <StackLayout VerticalOptions="Start" HorizontalOptions="Start">
+            <Frame BackgroundColor="{Binding BackgroundColor}" CornerRadius="10" Padding="5,5,80,50" Margin="30,400,0,0">
+
+            </Frame>
+        </StackLayout>
+
+        <StackLayout VerticalOptions="Start" HorizontalOptions="Start">
+            <Frame BackgroundColor="{Binding BackgroundColor3}"  CornerRadius="10" Padding="50,5,5,80" Margin="200,310,0,0">
+
+            </Frame>
+        </StackLayout>
+
+        <StackLayout VerticalOptions="Start" HorizontalOptions="Start">
+            <Frame BackgroundColor="{Binding BackgroundColor4}"  CornerRadius="10" Padding="50,5,5,80" Margin="300,310,0,0">
+
+            </Frame>
+        </StackLayout>
+
+    </Grid>
+</ContentPage>

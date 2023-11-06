@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppEstacioneJa.MainPage"
+             NavigationPage.HasNavigationBar="False">
+
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="150" />
+            <!-- Metade amarela -->
+            <RowDefinition Height="550" />
+            <!-- Metade branca -->
+        </Grid.RowDefinitions>
+        <!-- Parte amarela -->
+        <BoxView Color="#FDBF05" Grid.Row="0" />
+
+        <!-- Parte branca -->
+        <BoxView Color="#F8F8F8" Grid.Row="1" />
+
+        <StackLayout VerticalOptions="Start" HorizontalOptions="Start">
+            <StackLayout VerticalOptions="Start" HorizontalOptions="CenterAndExpand">
+                <Image Source="Logo.png" WidthRequest="130" HeightRequest="130" Margin="10,0,0,0"/>
+            </StackLayout>
+        </StackLayout>
+        <StackLayout VerticalOptions="End" HorizontalOptions="Start">
+            <Image Source="usuario.png" WidthRequest="55" HeightRequest="55" Margin="290,0,0,0"/>
+            <Label Text="Motorista" Margin="290,0,0,26" FontSize="18"/>
+        </StackLayout>
+        <StackLayout VerticalOptions="End" HorizontalOptions="Center">
+            <Button Text="Mapa do estacionamento" BackgroundColor="#F0F0F0" TextColor="Black" CornerRadius="15" Margin="0,180,0,0"
+                        WidthRequest="330" HeightRequest="50" FontSize="18" />
+            <Button Text="Pagamento" BackgroundColor="#F0F0F0" TextColor="Black" CornerRadius="15" Margin="0,20,0,0"
+                        WidthRequest="330" HeightRequest="50" FontSize="18" />
+            <Button Text="Dúvidas frequentes" BackgroundColor="#F0F0F0" TextColor="Black" CornerRadius="15" Margin="0,20,0,0"
+                        WidthRequest="330" HeightRequest="50" FontSize="18" />
+            <Button Text="Procurar Vaga" BackgroundColor="#393939" TextColor="White" CornerRadius="15" Margin="0,180,0,0"
+                        WidthRequest="270" HeightRequest="55" FontSize="25" />
+        </StackLayout>
+
+    </Grid>
+
+</ContentPage>

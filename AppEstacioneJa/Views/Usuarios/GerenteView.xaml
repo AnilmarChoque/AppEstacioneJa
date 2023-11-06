@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppEstacioneJa.Views.Usuarios.GerenteView"
+             Title="GerenteView"
+             NavigationPage.HasNavigationBar="False">
+    <Grid>
+
+        <Image Source="fundopadrao.png" 
+        Aspect="AspectFill" />
+
+        <StackLayout VerticalOptions="Start" HorizontalOptions="Start">
+            <StackLayout VerticalOptions="Start" HorizontalOptions="CenterAndExpand">
+                <Image Source="Logo.png" WidthRequest="170" HeightRequest="170" Margin="10,0,0,0"/>
+            </StackLayout>
+        </StackLayout>
+        <StackLayout VerticalOptions="Start" HorizontalOptions="Start">
+            <Frame CornerRadius="80" WidthRequest="50" HeightRequest="50" HasShadow="False" Margin="290,52,0,0">
+                <Image Source="gerente.png" Aspect="AspectFill" WidthRequest="60" HeightRequest="60" Margin="0,12,20,0"/>
+            </Frame>
+            <Label Text="Gerente" Margin="294,0,0,26" FontSize="18"/>
+        </StackLayout>
+        <StackLayout VerticalOptions="Start" HorizontalOptions="CenterAndExpand">
+            <Button Text="Mapa do estacionamento" Command="{Binding DirecionarListagemVagasCommand}" BackgroundColor="#F0F0F0" TextColor="Black" CornerRadius="15" Margin="0,250,0,0"
+                     WidthRequest="330" HeightRequest="50" FontSize="18" />
+            <Button  BackgroundColor="#D1D1D1" TextColor="Black" CornerRadius="15" Margin="0,20,0,0"
+                     WidthRequest="330" HeightRequest="50" FontSize="18" />
+            <Button BackgroundColor="#D1D1D1" TextColor="Black" CornerRadius="15" Margin="0,20,0,0"
+                     WidthRequest="330" HeightRequest="50" FontSize="18" />
+            <Button BackgroundColor="#D1D1D1" TextColor="Black" CornerRadius="15" Margin="0,20,0,0"
+                    WidthRequest="330" HeightRequest="50" FontSize="18" />
+            <Button BackgroundColor="#393939" TextColor="White" CornerRadius="15" Margin="0,110,0,0"
+                     WidthRequest="270" HeightRequest="55" FontSize="25" />
+        </StackLayout>
+        <Image Source="embreve.png"  WidthRequest="1000" HeightRequest="100" Margin="0,-110,0,0"/>
+        <Image Source="embreve.png"  WidthRequest="1000" HeightRequest="100" Margin="0,30,0,0"/>
+        <Image Source="embreve.png"  WidthRequest="1000" HeightRequest="100" Margin="0,170,0,0"/>
+        <Image Source="embreve.png"  WidthRequest="1000" HeightRequest="110" Margin="0,495,0,0"/>
+        
+            
+
+    </Grid>
+</ContentPage>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppEstacioneJa.Views.Usuarios.EntradaView"
+             Title="EntradaView"
+             NavigationPage.HasNavigationBar="False">
+
+    <Grid>
+        <!-- Defina a imagem de fundo -->
+        <Image Source="fundo.jpeg" 
+               Aspect="AspectFill" />
+
+        <!-- Adicione o StackLayout sobre a imagem de fundo -->
+        <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+            <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+                <Image Source="Logo.png" WidthRequest="250" HeightRequest="250" Margin="30,0,0,0"/>
+                <Label Text="Estacionar" TextColor="#525252" FontSize="39" Margin="100,0,100,0"
+                       FontAttributes="Bold"/>
+                <Label Text="nunca foi tão" TextColor="#525252" FontSize="39" Margin="76,0,10,0"
+                        FontAttributes="Bold"/>
+                <Label Text="fácil!" TextColor="#525252" FontSize="39" Margin="148,0,100,30"
+                        FontAttributes="Bold"/>
+            </StackLayout>
+            <StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand">
+            <Button Text="Cadastro" BackgroundColor="#525252" TextColor="White" CornerRadius="15" 
+                        WidthRequest="234" HeightRequest="50" FontSize="25" Margin="0,10,0,10" Command="{Binding DirecionarCadastroCommand}"/>
+            <Button Text="Login" BackgroundColor="#525252" TextColor="White" CornerRadius="15"
+                        WidthRequest="234" HeightRequest="50" FontSize="23" Command="{Binding DirecionarLoginCommand}" />
+            </StackLayout>
+            <VerticalStackLayout
+                VerticalOptions="Center"
+                Spacing="10" Margin="100,10,0,0">
+                <Label Text="ou" TextColor="#525252" FontSize="20" FontAttributes="Bold" Margin="82,0,0,0"></Label>
+                <Label Text="Entrar sem cadastro" FontAttributes="Bold" FontSize="20" TextColor="#525252"></Label>
+                <VerticalStackLayout.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding DirecionarListagemVagasCommand}">
+                    </TapGestureRecognizer>
+                </VerticalStackLayout.GestureRecognizers>
+            </VerticalStackLayout>
+        </StackLayout>
+    </Grid>
+
+</ContentPage>
+
