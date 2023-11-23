@@ -8,12 +8,15 @@ using AppEstacioneJa.Models;
 using System.Collections.ObjectModel;
 using Microsoft.Maui.Graphics;
 using System.ComponentModel;
+using AppEstacioneJa.Views.Usuarios;
+using System.Windows.Input;
 
 namespace AppEstacioneJa.ViewModels.Vagas
 {
     public class VagaViewModel : BaseViewModel, INotifyPropertyChanged
     {
         private VagaService vService;
+        public ICommand DirecionarMenuCommand { get; set; }
         public VagaViewModel()
         {
             string token = Preferences.Get("UsuarioToken", string.Empty);
@@ -45,6 +48,11 @@ namespace AppEstacioneJa.ViewModels.Vagas
             _ = ObterDados2();
             _ = ObterDados3();
             _ = ObterDados4();
+            InicializarCommands();
+        }
+        public void InicializarCommands()
+        {
+            DirecionarMenuCommand = new Command(async () => await DirecionarParaMenu());
         }
 
         private Color backgroundColor2;
@@ -223,6 +231,35 @@ namespace AppEstacioneJa.ViewModels.Vagas
                     await Application.Current.MainPage
                         .DisplayAlert("Informação", "Dados incorretos :C", "Ok");
                 }
+            }
+            catch (Exception ex)
+            {
+                await Application.Current.MainPage
+                    .DisplayAlert("Informação", ex.Message + " Detalhes: " + ex.InnerException, "Ok");
+            }
+        }
+
+        public async Task DirecionarParaMenu()
+        {
+            try
+            {
+                int tipo = Preferences.Get("UsuarioTipo", 0);
+                if(tipo == 1)
+                {
+                    await Application.Current.MainPage.
+                    Navigation.PushAsync(new MainPage());
+                }
+                else if(tipo == 2)
+                {
+                    await Application.Current.MainPage.
+                    Navigation.PushAsync(new GerenteView());
+                }
+                else
+                {
+                    await Application.Current.MainPage
+                    .DisplayAlert("Alerta", "Não encontrei de tipo: " + tipo, "Ok");
+                }
+                
             }
             catch (Exception ex)
             {

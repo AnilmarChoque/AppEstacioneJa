@@ -8,63 +8,63 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AppEstacioneJa
-build_property.ProjectDir = C:\Arquivos\3Ai\TCC\AppEstacioneJa\AppEstacioneJa-main\AppEstacioneJa-main\AppEstacioneJa\
+build_property.ProjectDir = C:\Users\anilm\Downloads\Etec\TCC\AppEstacioneJa\AppEstacioneJa\
 
-[C:/Arquivos/3Ai/TCC/AppEstacioneJa/AppEstacioneJa-main/AppEstacioneJa-main/AppEstacioneJa/App.xaml]
+[C:/Users/anilm/Downloads/Etec/TCC/AppEstacioneJa/AppEstacioneJa/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppEstacioneJa.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Arquivos/3Ai/TCC/AppEstacioneJa/AppEstacioneJa-main/AppEstacioneJa-main/AppEstacioneJa/AppShell.xaml]
+[C:/Users/anilm/Downloads/Etec/TCC/AppEstacioneJa/AppEstacioneJa/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppEstacioneJa.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Arquivos/3Ai/TCC/AppEstacioneJa/AppEstacioneJa-main/AppEstacioneJa-main/AppEstacioneJa/MainPage.xaml]
+[C:/Users/anilm/Downloads/Etec/TCC/AppEstacioneJa/AppEstacioneJa/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppEstacioneJa.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Arquivos/3Ai/TCC/AppEstacioneJa/AppEstacioneJa-main/AppEstacioneJa-main/AppEstacioneJa/Resources/Styles/Colors.xaml]
+[C:/Users/anilm/Downloads/Etec/TCC/AppEstacioneJa/AppEstacioneJa/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppEstacioneJa.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Arquivos/3Ai/TCC/AppEstacioneJa/AppEstacioneJa-main/AppEstacioneJa-main/AppEstacioneJa/Resources/Styles/Styles.xaml]
+[C:/Users/anilm/Downloads/Etec/TCC/AppEstacioneJa/AppEstacioneJa/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppEstacioneJa.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Arquivos/3Ai/TCC/AppEstacioneJa/AppEstacioneJa-main/AppEstacioneJa-main/AppEstacioneJa/Views/Usuarios/CadastroView.xaml]
+[C:/Users/anilm/Downloads/Etec/TCC/AppEstacioneJa/AppEstacioneJa/Views/Usuarios/CadastroView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppEstacioneJa.Views.Usuarios.CadastroView.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Usuarios\CadastroView.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Usuarios\CadastroView.xaml
 
-[C:/Arquivos/3Ai/TCC/AppEstacioneJa/AppEstacioneJa-main/AppEstacioneJa-main/AppEstacioneJa/Views/Usuarios/EntradaView.xaml]
+[C:/Users/anilm/Downloads/Etec/TCC/AppEstacioneJa/AppEstacioneJa/Views/Usuarios/EntradaView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppEstacioneJa.Views.Usuarios.EntradaView.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Usuarios\EntradaView.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Usuarios\EntradaView.xaml
 
-[C:/Arquivos/3Ai/TCC/AppEstacioneJa/AppEstacioneJa-main/AppEstacioneJa-main/AppEstacioneJa/Views/Usuarios/GerenteView.xaml]
+[C:/Users/anilm/Downloads/Etec/TCC/AppEstacioneJa/AppEstacioneJa/Views/Usuarios/GerenteView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppEstacioneJa.Views.Usuarios.GerenteView.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Usuarios\GerenteView.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Usuarios\GerenteView.xaml
 
-[C:/Arquivos/3Ai/TCC/AppEstacioneJa/AppEstacioneJa-main/AppEstacioneJa-main/AppEstacioneJa/Views/Usuarios/LoginView.xaml]
+[C:/Users/anilm/Downloads/Etec/TCC/AppEstacioneJa/AppEstacioneJa/Views/Usuarios/LoginView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppEstacioneJa.Views.Usuarios.LoginView.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Usuarios\LoginView.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Usuarios\LoginView.xaml
 
-[C:/Arquivos/3Ai/TCC/AppEstacioneJa/AppEstacioneJa-main/AppEstacioneJa-main/AppEstacioneJa/Views/Vagas/ListagemVagasView.xaml]
+[C:/Users/anilm/Downloads/Etec/TCC/AppEstacioneJa/AppEstacioneJa/Views/Vagas/ListagemVagasView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppEstacioneJa.Views.Vagas.ListagemVagasView.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Vagas\ListagemVagasView.xaml

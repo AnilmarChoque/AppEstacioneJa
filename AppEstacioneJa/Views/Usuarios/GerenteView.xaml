@@ -14,11 +14,11 @@
                 <Image Source="Logo.png" WidthRequest="170" HeightRequest="170" Margin="10,0,0,0"/>
             </StackLayout>
         </StackLayout>
-        <StackLayout VerticalOptions="Start" HorizontalOptions="Start">
-            <Frame CornerRadius="80" WidthRequest="50" HeightRequest="50" HasShadow="False" Margin="290,52,0,0">
-                <Image Source="gerente.png" Aspect="AspectFill" WidthRequest="60" HeightRequest="60" Margin="0,12,20,0"/>
+        <StackLayout VerticalOptions="Start" HorizontalOptions="End">
+            <Frame CornerRadius="80" WidthRequest="80" HeightRequest="80" HasShadow="False" Margin="0,50,30,0">
+                <Image Source="gerente.png" Aspect="AspectFill" WidthRequest="80" HeightRequest="80" Margin="0,0,0,0"/>
             </Frame>
-            <Label Text="Gerente" Margin="294,0,0,26" FontSize="18"/>
+            <Label Text="Gerente" Margin="5,0,0,0" FontSize="18"/>
         </StackLayout>
         <StackLayout VerticalOptions="Start" HorizontalOptions="CenterAndExpand">
             <Button Text="Mapa do estacionamento" Command="{Binding DirecionarListagemVagasCommand}" BackgroundColor="#F0F0F0" TextColor="Black" CornerRadius="15" Margin="0,250,0,0"
