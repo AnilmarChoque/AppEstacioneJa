@@ -32,6 +32,7 @@ namespace AppEstacioneJa.ViewModels.Usuarios
             InicializarCommands();
             _ = ObterPreferencias();
             _ = ObterTipoUsuario();
+            Nome = Preferences.Get("UsuarioNome", string.Empty);
         }
 
         public void InicializarCommands()

@@ -18,26 +18,24 @@
             <Frame CornerRadius="80" WidthRequest="80" HeightRequest="80" HasShadow="False" Margin="0,50,30,0">
                 <Image Source="gerente.png" Aspect="AspectFill" WidthRequest="80" HeightRequest="80" Margin="0,0,0,0"/>
             </Frame>
-            <Label Text="Gerente" Margin="5,0,0,0" FontSize="18"/>
+            <Label Text="{Binding Nome}" Margin="5,0,0,0" FontSize="18"/>
         </StackLayout>
         <StackLayout VerticalOptions="Start" HorizontalOptions="CenterAndExpand">
-            <Button Text="Mapa do estacionamento" Command="{Binding DirecionarListagemVagasCommand}" BackgroundColor="#F0F0F0" TextColor="Black" CornerRadius="15" Margin="0,250,0,0"
+            <Button  BackgroundColor="#D1D1D1" TextColor="Black" CornerRadius="15" Margin="0,250,0,0"
                      WidthRequest="330" HeightRequest="50" FontSize="18" />
-            <Button  BackgroundColor="#D1D1D1" TextColor="Black" CornerRadius="15" Margin="0,20,0,0"
-                     WidthRequest="330" HeightRequest="50" FontSize="18" />
-            <Button BackgroundColor="#D1D1D1" TextColor="Black" CornerRadius="15" Margin="0,20,0,0"
-                     WidthRequest="330" HeightRequest="50" FontSize="18" />
-            <Button BackgroundColor="#D1D1D1" TextColor="Black" CornerRadius="15" Margin="0,20,0,0"
+            <Button Text="Mapa do estacionamento" Command="{Binding DirecionarListagemVagasCommand}" BackgroundColor="#F0F0F0" TextColor="Black" CornerRadius="15" Margin="0,20,0,0"
                     WidthRequest="330" HeightRequest="50" FontSize="18" />
-            <Button BackgroundColor="#393939" TextColor="White" CornerRadius="15" Margin="0,110,0,0"
-                     WidthRequest="270" HeightRequest="55" FontSize="25" />
-        </StackLayout>
-        <Image Source="embreve.png"  WidthRequest="1000" HeightRequest="100" Margin="0,-110,0,0"/>
-        <Image Source="embreve.png"  WidthRequest="1000" HeightRequest="100" Margin="0,30,0,0"/>
-        <Image Source="embreve.png"  WidthRequest="1000" HeightRequest="100" Margin="0,170,0,0"/>
-        <Image Source="embreve.png"  WidthRequest="1000" HeightRequest="110" Margin="0,495,0,0"/>
-        
             
+            <Frame BackgroundColor="#F0F0F0" CornerRadius="15" Padding="0,0,0,0" Margin="0,20,0,0" HorizontalOptions="Start" BorderColor="Transparent">
+                <StackLayout Orientation="Horizontal">
+                    <ImageButton Source="carinhaduvidosa.png" WidthRequest="15" HeightRequest="15" Margin="0,0,0,0" Padding="0,0,0,0" />
+                    <Button BackgroundColor="#F0F0F0" TextColor="Black" CornerRadius="15" Margin="0,0,0,0"
+                         WidthRequest="315" HeightRequest="50" FontSize="18"/>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+
+
 
     </Grid>
 </ContentPage>
