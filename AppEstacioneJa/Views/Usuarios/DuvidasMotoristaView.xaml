@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppEstacioneJa.Views.Usuarios.DuvidasMotoristaView"
+             Title="DuvidasMotoristaView"
+              NavigationPage.HasNavigationBar="False">
+    <Grid>
+        <Image Source="fundoduvidas.png" 
+            Aspect="AspectFill" />
+        <HorizontalStackLayout VerticalOptions="Start" Margin="30,70,0,0">
+            <ImageButton Source="backarrowicon.png" WidthRequest="20" HeightRequest="20" Margin="0,0,0,0" Clicked="ImageButton_Clicked"/>
+            <Label Text="Dúvidas frequentes" Margin="20,0,0,0" FontSize="20" TextColor="Black" />
+        </HorizontalStackLayout>
+        <StackLayout>
+            <Button Text="Como realizo pagamentos pelo aplicativo?" BackgroundColor="#F0F0F0" TextColor="Black" CornerRadius="15" Margin="0,150,0,0"
+                WidthRequest="350" HeightRequest="80" FontSize="18" LineBreakMode="WordWrap" Clicked="Button_Clicked"/>
+            <Label x:Name="respostaLabel" IsVisible="False" Text="Não é possível realizar pagamentos ainda pelo Estacione Já, essa será uma futura ação do aplicativo."
+                BackgroundColor="White" TextColor="Black"
+                Margin="30,0,30,0" HeightRequest="80" FontSize="18" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            <Button Text="É possível verificar a disponibilidade de vagas em tempo real?" BackgroundColor="#F0F0F0" TextColor="Black" CornerRadius="15" Margin="0,10,0,0"
+                WidthRequest="350" HeightRequest="80" FontSize="18" LineBreakMode="WordWrap" Clicked="Button_Clicked_1"/>
+            <Label x:Name="respostaLabel2" IsVisible="False" Text="Sim, o Estacione Já exibie em tempo real as circuntâncias das vagas."
+                BackgroundColor="White" TextColor="Black"
+                Margin="30,10,30,0" HeightRequest="50" FontSize="18" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            <Button Text="O aplicativo possui integração com sistemas de navegação, como GPS, para me guiar até a vaga de estacionamento?" BackgroundColor="#F0F0F0" TextColor="Black" CornerRadius="15" Margin="0,10,0,0"
+                WidthRequest="350" HeightRequest="100" FontSize="18" LineBreakMode="WordWrap" Clicked="Button_Clicked_2"/>
+            <Label x:Name="respostaLabel3" IsVisible="False" Text="Sim, com a sua permissão, usamos a localização do seu dispositivo celular para direciona-lo para a vaga mais próxima."
+                BackgroundColor="White" TextColor="Black"
+                Margin="30,10,30,0" HeightRequest="100" FontSize="18" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            
+        </StackLayout>
+    </Grid>
+</ContentPage>

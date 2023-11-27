@@ -237,9 +237,17 @@ namespace AppEstacioneJa.ViewModels.Usuarios
                     await Application.Current.MainPage
                     .DisplayAlert("Informação", mensagem, "Ok");
 
-
-                    await Application.Current.MainPage.
-                    Navigation.PushAsync(new GerenteView());
+                    if(usuarioTipoValue == 2)
+                    {
+                        await Application.Current.MainPage.
+                            Navigation.PushAsync(new GerenteView());
+                    }
+                    else
+                    {
+                        await Application.Current.MainPage
+                            .Navigation.PushAsync(new MainPage());
+                    }
+                    
 
                 }
                 else

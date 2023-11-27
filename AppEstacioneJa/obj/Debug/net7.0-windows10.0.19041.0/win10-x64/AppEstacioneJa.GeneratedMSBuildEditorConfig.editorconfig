@@ -46,6 +46,18 @@ build_metadata.AdditionalFiles.ManifestResourceName = AppEstacioneJa.Views.Usuar
 build_metadata.AdditionalFiles.TargetPath = Views\Usuarios\CadastroView.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Usuarios\CadastroView.xaml
 
+[C:/Users/anilm/Downloads/Etec/TCC/AppEstacioneJa/AppEstacioneJa/Views/Usuarios/DuvidasGerenteView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppEstacioneJa.Views.Usuarios.DuvidasGerenteView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Usuarios\DuvidasGerenteView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Usuarios\DuvidasGerenteView.xaml
+
+[C:/Users/anilm/Downloads/Etec/TCC/AppEstacioneJa/AppEstacioneJa/Views/Usuarios/DuvidasMotoristaView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppEstacioneJa.Views.Usuarios.DuvidasMotoristaView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Usuarios\DuvidasMotoristaView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Usuarios\DuvidasMotoristaView.xaml
+
 [C:/Users/anilm/Downloads/Etec/TCC/AppEstacioneJa/AppEstacioneJa/Views/Usuarios/EntradaView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppEstacioneJa.Views.Usuarios.EntradaView.xaml

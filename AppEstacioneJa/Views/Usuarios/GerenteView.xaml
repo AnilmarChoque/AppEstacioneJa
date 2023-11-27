@@ -21,16 +21,28 @@
             <Label Text="{Binding Nome}" Margin="5,0,0,0" FontSize="18"/>
         </StackLayout>
         <StackLayout VerticalOptions="Start" HorizontalOptions="CenterAndExpand">
-            <Button  BackgroundColor="#D1D1D1" TextColor="Black" CornerRadius="15" Margin="0,250,0,0"
-                     WidthRequest="330" HeightRequest="50" FontSize="18" />
-            <Button Text="Mapa do estacionamento" Command="{Binding DirecionarListagemVagasCommand}" BackgroundColor="#F0F0F0" TextColor="Black" CornerRadius="15" Margin="0,20,0,0"
-                    WidthRequest="330" HeightRequest="50" FontSize="18" />
-            
+
+            <Frame BackgroundColor="#F0F0F0" CornerRadius="15" Padding="0,0,0,0" Margin="0,250,0,0" HorizontalOptions="Start" BorderColor="Transparent">
+                <StackLayout Orientation="Horizontal">
+                    <ImageButton Source="estatisticas.png" WidthRequest="30" HeightRequest="30" Margin="20,0,0,0" Padding="0,0,0,0" />
+                    <Button Text="Estatísticas" BackgroundColor="#F0F0F0" TextColor="Black" CornerRadius="15" Margin="0,0,0,0"
+                        WidthRequest="285" HeightRequest="50" FontSize="18" />
+                </StackLayout>
+            </Frame>
+
             <Frame BackgroundColor="#F0F0F0" CornerRadius="15" Padding="0,0,0,0" Margin="0,20,0,0" HorizontalOptions="Start" BorderColor="Transparent">
                 <StackLayout Orientation="Horizontal">
-                    <ImageButton Source="carinhaduvidosa.png" WidthRequest="15" HeightRequest="15" Margin="0,0,0,0" Padding="0,0,0,0" />
-                    <Button BackgroundColor="#F0F0F0" TextColor="Black" CornerRadius="15" Margin="0,0,0,0"
-                         WidthRequest="315" HeightRequest="50" FontSize="18"/>
+                    <ImageButton Source="paineldevagas.png" WidthRequest="30" HeightRequest="30" Command="{Binding DirecionarListagemVagasCommand}" Margin="20,0,0,0" Padding="0,0,0,0" />
+                    <Button Text="Painel de vagas" Command="{Binding DirecionarListagemVagasCommand}" BackgroundColor="#F0F0F0" TextColor="Black" CornerRadius="15" Margin="0,0,0,0"
+                        WidthRequest="285" HeightRequest="50" FontSize="18" />
+                </StackLayout>
+            </Frame>
+
+            <Frame BackgroundColor="#F0F0F0" CornerRadius="15" Padding="0,0,0,0" Margin="0,20,0,0" HorizontalOptions="Start" BorderColor="Transparent">
+                <StackLayout Orientation="Horizontal">
+                    <ImageButton Source="carinhaduvidosa.png" WidthRequest="30" HeightRequest="30" Margin="20,0,0,0" Padding="0,0,0,0" Clicked="Button_Clicked"/>
+                    <Button Text="Dúvidas Frequentes" BackgroundColor="#F0F0F0" TextColor="Black" CornerRadius="15" Margin="0,0,0,0"
+                         WidthRequest="285" HeightRequest="50" FontSize="18" Clicked="Button_Clicked"/>
                 </StackLayout>
             </Frame>
         </StackLayout>

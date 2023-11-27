@@ -4,11 +4,16 @@ namespace AppEstacioneJa.Views.Usuarios;
 
 public partial class GerenteView : ContentPage
 {
-    UsuarioViewModel viewModel;
-    public GerenteView()
+        UsuarioViewModel viewModel;
+        public GerenteView()
+        {
+            InitializeComponent();
+            viewModel = new UsuarioViewModel();
+            BindingContext = viewModel;
+        }
+
+    private void Button_Clicked(object sender, EventArgs e)
     {
-        InitializeComponent();
-        viewModel = new UsuarioViewModel();
-        BindingContext = viewModel;
+        Navigation.PushAsync(new DuvidasGerenteView());
     }
 }

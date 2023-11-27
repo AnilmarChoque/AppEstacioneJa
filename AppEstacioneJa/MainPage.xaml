@@ -6,37 +6,48 @@
 
     <Grid>
 
-        <Grid.RowDefinitions>
-            <RowDefinition Height="150" />
-            <!-- Metade amarela -->
-            <RowDefinition Height="550" />
-            <!-- Metade branca -->
-        </Grid.RowDefinitions>
-        <!-- Parte amarela -->
-        <BoxView Color="#FDBF05" Grid.Row="0" />
-
-        <!-- Parte branca -->
-        <BoxView Color="#F8F8F8" Grid.Row="1" />
+        <Image Source="fundopadrao.png" 
+    Aspect="AspectFill" />
 
         <StackLayout VerticalOptions="Start" HorizontalOptions="Start">
             <StackLayout VerticalOptions="Start" HorizontalOptions="CenterAndExpand">
-                <Image Source="Logo.png" WidthRequest="130" HeightRequest="130" Margin="10,0,0,0"/>
+                <Image Source="Logo.png" WidthRequest="170" HeightRequest="170" Margin="10,0,0,0"/>
             </StackLayout>
         </StackLayout>
-        <StackLayout VerticalOptions="End" HorizontalOptions="Start">
-            <Image Source="usuario.png" WidthRequest="55" HeightRequest="55" Margin="290,0,0,0"/>
-            <Label Text="Motorista" Margin="290,0,0,26" FontSize="18"/>
+        <StackLayout VerticalOptions="Start" HorizontalOptions="End">
+            <Frame CornerRadius="80" WidthRequest="80" HeightRequest="80" HasShadow="False" Margin="0,50,30,0">
+                <Image Source="gerente.png" Aspect="AspectFill" WidthRequest="80" HeightRequest="80" Margin="0,0,0,0"/>
+            </Frame>
+            <Label Text="{Binding Nome}" Margin="5,0,0,0" FontSize="18"/>
         </StackLayout>
-        <StackLayout VerticalOptions="End" HorizontalOptions="Center">
-            <Button Text="Mapa do estacionamento" BackgroundColor="#F0F0F0" TextColor="Black" CornerRadius="15" Margin="0,180,0,0"
-                        WidthRequest="330" HeightRequest="50" FontSize="18" />
-            <Button Text="Pagamento" BackgroundColor="#F0F0F0" TextColor="Black" CornerRadius="15" Margin="0,20,0,0"
-                        WidthRequest="330" HeightRequest="50" FontSize="18" />
-            <Button Text="Dúvidas frequentes" BackgroundColor="#F0F0F0" TextColor="Black" CornerRadius="15" Margin="0,20,0,0"
-                        WidthRequest="330" HeightRequest="50" FontSize="18" />
-            <Button Text="Procurar Vaga" BackgroundColor="#393939" TextColor="White" CornerRadius="15" Margin="0,180,0,0"
-                        WidthRequest="270" HeightRequest="55" FontSize="25" />
+        <StackLayout VerticalOptions="Start" HorizontalOptions="CenterAndExpand">
+
+            <Frame BackgroundColor="#F0F0F0" CornerRadius="15" Padding="0,0,0,0" Margin="0,250,0,0" HorizontalOptions="Start" BorderColor="Transparent">
+                <StackLayout Orientation="Horizontal">
+                    <ImageButton Source="mapa.png" WidthRequest="50" HeightRequest="50" Command="{Binding DirecionarListagemVagasCommand}" Margin="20,0,0,0" Padding="0,0,0,0" />
+                    <Button Text="Mapa do estacionamento" Command="{Binding DirecionarListagemVagasCommand}" BackgroundColor="#F0F0F0" TextColor="Black" CornerRadius="15" Margin="0,0,0,0"
+                        WidthRequest="266" HeightRequest="50" FontSize="18" />
+                </StackLayout>
+            </Frame>
+
+            <Frame BackgroundColor="#F0F0F0" CornerRadius="15" Padding="0,0,0,0" Margin="0,20,0,0" HorizontalOptions="Start" BorderColor="Transparent">
+                <StackLayout Orientation="Horizontal">
+                    <ImageButton Source="estatisticas.png" WidthRequest="30" HeightRequest="30" Margin="20,0,0,0" Padding="0,0,0,0" />
+                    <Button Text="Pagamento" BackgroundColor="#F0F0F0" TextColor="Black" CornerRadius="15" Margin="0,0,0,0"
+                        WidthRequest="285" HeightRequest="50" FontSize="18" />
+                </StackLayout>
+            </Frame>
+
+            <Frame BackgroundColor="#F0F0F0" CornerRadius="15" Padding="0,0,0,0" Margin="0,20,0,0" HorizontalOptions="Start" BorderColor="Transparent">
+                <StackLayout Orientation="Horizontal">
+                    <ImageButton Source="carinhaduvidosa.png" WidthRequest="30" HeightRequest="30" Margin="20,0,0,0" Padding="0,0,0,0" Clicked="Button_Clicked" />
+                    <Button Text="Dúvidas Frequentes" BackgroundColor="#F0F0F0" TextColor="Black" CornerRadius="15" Margin="0,0,0,0"
+                        WidthRequest="285" HeightRequest="50" FontSize="18" Clicked="Button_Clicked"/>
+                </StackLayout>
+            </Frame>
         </StackLayout>
+
+
 
     </Grid>
 
