@@ -18,7 +18,7 @@
             <Frame CornerRadius="80" WidthRequest="80" HeightRequest="80" HasShadow="False" Margin="0,50,30,0">
                 <Image Source="gerente.png" Aspect="AspectFill" WidthRequest="80" HeightRequest="80" Margin="0,0,0,0"/>
             </Frame>
-            <Label Text="{Binding Nome}" Margin="5,0,0,0" FontSize="18"/>
+            <Label Text="{Binding Perfil}" Margin="5,0,0,0" FontSize="18"/>
         </StackLayout>
         <StackLayout VerticalOptions="Start" HorizontalOptions="CenterAndExpand">
 

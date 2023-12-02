@@ -33,7 +33,7 @@
                 <Label Text="ou" TextColor="#525252" FontSize="20" FontAttributes="Bold" Margin="82,0,0,0"></Label>
                 <Label Text="Entrar sem cadastro" FontAttributes="Bold" FontSize="20" TextColor="#525252"></Label>
                 <VerticalStackLayout.GestureRecognizers>
-                    <TapGestureRecognizer Command="{Binding DirecionarMainPageCommand}">
+                    <TapGestureRecognizer Command="{Binding AnonimoCommand}">
                     </TapGestureRecognizer>
                 </VerticalStackLayout.GestureRecognizers>
             </VerticalStackLayout>
