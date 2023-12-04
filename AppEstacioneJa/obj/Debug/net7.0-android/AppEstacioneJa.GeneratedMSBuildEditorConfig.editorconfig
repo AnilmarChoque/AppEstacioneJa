@@ -68,6 +68,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = AppEstacioneJa.Views.Usuar
 build_metadata.AdditionalFiles.TargetPath = Views\Usuarios\EntradaView.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Usuarios\EntradaView.xaml
 
+[C:/Users/anilm/Downloads/Etec/TCC/AppEstacioneJa/AppEstacioneJa/Views/Usuarios/EstatisticasView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppEstacioneJa.Views.Usuarios.EstatisticasView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Usuarios\EstatisticasView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Usuarios\EstatisticasView.xaml
+
 [C:/Users/anilm/Downloads/Etec/TCC/AppEstacioneJa/AppEstacioneJa/Views/Usuarios/GerenteView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppEstacioneJa.Views.Usuarios.GerenteView.xaml

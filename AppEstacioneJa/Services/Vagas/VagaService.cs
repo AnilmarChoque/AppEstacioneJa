@@ -52,5 +52,19 @@ namespace AppEstacioneJa.Services.Vagas
             var result = await _request.DeleteAsync(apiUrlBase + urlComplementar, _token);
             return result;
         }
+
+        /*public async Task<List<Vaga>> GetVagasAsync()
+        {
+            string urlComplementar = "/GetAll";
+            var vagas = await _request.GetAsync<List<Vaga>>(apiUrlBase + urlComplementar, _token);
+            return vagas;
+        }
+
+        public async Task<int> ContarVagasAsync()
+        {
+            var Vagas = await GetVagasAsync();
+            int contagem = Vagas.Count;
+            return contagem;
+        }*/
     }
 }

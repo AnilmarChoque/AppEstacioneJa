@@ -74,6 +74,9 @@
 	  <MauiXaml Update="Views\Usuarios\EntradaView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Views\Usuarios\EstatisticasView.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Views\Usuarios\GerenteView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

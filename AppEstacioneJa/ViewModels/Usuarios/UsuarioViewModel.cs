@@ -12,12 +12,14 @@ using AppEstacioneJa.Services.Usuarios;
 using System.ComponentModel;
 using AppEstacioneJa.Views.Usuarios;
 using AppEstacioneJa.Views.Vagas;
+using AppEstacioneJa.Services.Vagas;
 
 namespace AppEstacioneJa.ViewModels.Usuarios
 {
     public class UsuarioViewModel : BaseViewModel
     {
         private UsuarioService uService;
+        //private VagaService vService;
         public ICommand RegistrarCommand { get; set; }
         public ICommand AutenticarCommand { get; set; }
         public ICommand AnonimoCommand { get; set; }
@@ -33,7 +35,7 @@ namespace AppEstacioneJa.ViewModels.Usuarios
             InicializarCommands();
             _ = ObterPreferencias();
             _ = ObterTipoUsuario();
-            Perfil = Preferences.Get("UsuarioNome", string.Empty);
+            Perfil = Preferences.Get("UsuarioNome", string.Empty); 
         }
 
         public void InicializarCommands()
@@ -71,6 +73,10 @@ namespace AppEstacioneJa.ViewModels.Usuarios
                 OnPropertyChanged();
             }
         }
+
+        
+
+        
 
         private string perfil = string.Empty;
         public string Perfil
@@ -197,6 +203,8 @@ namespace AppEstacioneJa.ViewModels.Usuarios
         }
 
         #region Métodos
+        
+
         public async Task RegistrarUsuario()
         {
             try

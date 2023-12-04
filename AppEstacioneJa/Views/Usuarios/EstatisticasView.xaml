@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppEstacioneJa.Views.Usuarios.EstatisticasView"
+             Title="EstatisticasView"
+             NavigationPage.HasNavigationBar="False">
+    <Grid>
+        <Image Source="fundoduvidas.png" 
+        Aspect="AspectFill" />
+        <StackLayout VerticalOptions="Start" HorizontalOptions="End">
+            <Frame CornerRadius="80" WidthRequest="60" HeightRequest="60" HasShadow="False" Margin="0,30,30,0">
+                <Image Source="gerente.png" Aspect="AspectFill" WidthRequest="70" HeightRequest="70" Margin="0,0,0,0"/>
+            </Frame>
+        </StackLayout>
+        <HorizontalStackLayout VerticalOptions="Start" Margin="30,130,0,0">
+            <ImageButton Source="backarrowicon.png" WidthRequest="20" HeightRequest="20" Margin="0,0,0,0" Clicked="ImageButton_Clicked"/>
+            <Label Text="Estatísticas" Margin="20,0,0,0" FontSize="20" TextColor="Black" />
+        </HorizontalStackLayout>
+        
+        <Label Text="Vaga" Margin="50,480,0,0" HorizontalOptions="Center"></Label>
+        <Label Text="Vezes Utilizadas (Semana)" Margin="5,310,0,0" WidthRequest="80" HorizontalOptions="Start"></Label>
+        
+        <HorizontalStackLayout VerticalOptions="Start" BackgroundColor="#F0F0F0" HeightRequest="280" WidthRequest="300" Margin="50,200,0,0">
+            <Label Text="6+ﾠ5ﾠ4ﾠ3ﾠ2ﾠ1" WidthRequest="20" Margin="15,25,0,0"></Label>
+            <BoxView Color="Black" WidthRequest="2" HeightRequest="220" Margin="0,0,0,0"/>
+            
+            <VerticalStackLayout>
+                <HorizontalStackLayout>
+                    <BoxView Color="#525252" HeightRequest="{Binding Height1}" WidthRequest="20" Margin="{Binding Margin1}"/>
+                    <BoxView Color="#525252" HeightRequest="{Binding Height2}" WidthRequest="20" Margin="{Binding Margin2}"/>
+                    <BoxView Color="#525252" HeightRequest="{Binding Height3}" WidthRequest="20" Margin="{Binding Margin3}"/>
+                    <BoxView Color="#525252" HeightRequest="{Binding Height4}" WidthRequest="20" Margin="{Binding Margin4}"/>
+                </HorizontalStackLayout>
+                
+                <BoxView Color="Black" HeightRequest="2" WidthRequest="250" />
+                <Label Text="ㅤㅤ1ㅤㅤㅤㅤ2ㅤㅤㅤㅤ3ㅤㅤㅤㅤ4" ></Label>
+            </VerticalStackLayout>
+        </HorizontalStackLayout>
+    </Grid>
+</ContentPage>
