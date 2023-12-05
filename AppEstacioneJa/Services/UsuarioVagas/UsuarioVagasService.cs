@@ -26,6 +26,8 @@ namespace AppEstacioneJa.Services.UsuarioVagas
             return vagas;
         }
 
+        
+
         public async Task<int> ContarVagas1Async()
         {
             var Vagas = await GetVagasAsync(1);

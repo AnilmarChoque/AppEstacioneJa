@@ -12,6 +12,7 @@ namespace AppEstacioneJa.Services.Vagas
     {
         private readonly Request _request;
         private const string apiUrlBase = "http://estacioneja.somee.com/EstacioneJa/Vagas";
+        private const string apiUrlBase2 = "http://estacioneja.somee.com/EstacioneJa/UsuarioVaga";
 
         private string _token;
 
@@ -51,6 +52,10 @@ namespace AppEstacioneJa.Services.Vagas
             string urlComplementar = string.Format("/{0}", vagaId);
             var result = await _request.DeleteAsync(apiUrlBase + urlComplementar, _token);
             return result;
+        }
+        public async Task<int> PostUsuarioVagaAsync(UsuarioVaga uv)
+        {
+            return await _request.PostReturnIntTokenAsync(apiUrlBase2, uv, _token);
         }
 
         /*public async Task<List<Vaga>> GetVagasAsync()

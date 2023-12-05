@@ -10,6 +10,8 @@ using Microsoft.Maui.Graphics;
 using System.ComponentModel;
 using AppEstacioneJa.Views.Usuarios;
 using System.Windows.Input;
+using Microsoft.Identity.Client;
+using AppEstacioneJa.Services.UsuarioVagas;
 
 namespace AppEstacioneJa.ViewModels.Vagas
 {
@@ -103,6 +105,32 @@ namespace AppEstacioneJa.ViewModels.Vagas
             }
         }
 
+        private long vagaId;
+        public long VagaId
+        {
+            get => vagaId;
+            set
+            {
+                vagaId = value;
+                OnPropertyChanged();
+            }
+        }
+        private long usuarioId;
+        public long UsuarioId
+        {
+            get => usuarioId;
+            set
+            {
+                usuarioId = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public int veri = 0;
+        public int veri2 = 0;
+        public int veri3 = 0;
+        public int veri4 = 0;
+
         public async Task ObterDados()
         {
             try
@@ -116,18 +144,23 @@ namespace AppEstacioneJa.ViewModels.Vagas
                     if(disponibilidadeTipoValue == 1)
                     {
                         BackgroundColor = new Color(25, 221, 8); // Cor verde
-
+                        veri = 0;
                     }
                     else
                     {
                         BackgroundColor = new Color(235, 0, 0); // Cor vermelha
+                        if(veri == 0)
+                        {
+                            UsuarioVaga uv = new UsuarioVaga();
+                            uv.UsuarioId = 1;
+                            uv.VagaId = 1;
+                            veri = 1;
+                            await vService.PostUsuarioVagaAsync(uv);
+
+                        }
+                        
                     }
 
-                }
-                else
-                {
-                    await Application.Current.MainPage
-                        .DisplayAlert("Informação", "Dados incorretos :C", "Ok");
                 }
             }
             catch (Exception ex)
@@ -150,18 +183,22 @@ namespace AppEstacioneJa.ViewModels.Vagas
                     if (disponibilidadeTipoValue == 1)
                     {
                         BackgroundColor2 = new Color(25, 221, 8); // Cor verde
-
+                        veri2 = 0;
                     }
                     else
                     {
                         BackgroundColor2 = new Color(235, 0, 0); // Cor vermelha
+                        if (veri2 == 0)
+                        {
+                            UsuarioVaga uv = new UsuarioVaga();
+                            uv.UsuarioId = 1;
+                            uv.VagaId = 1;
+                            veri2 = 1;
+                            await vService.PostUsuarioVagaAsync(uv);
+
+                        }
                     }
 
-                }
-                else
-                {
-                    await Application.Current.MainPage
-                        .DisplayAlert("Informação", "Dados incorretos :C", "Ok");
                 }
             }
             catch (Exception ex)
@@ -184,18 +221,22 @@ namespace AppEstacioneJa.ViewModels.Vagas
                     if (disponibilidadeTipoValue == 1)
                     {
                         BackgroundColor3 = new Color(25, 221, 8); // Cor verde
-
+                        veri3 = 0;
                     }
                     else
                     {
                         BackgroundColor3 = new Color(235, 0, 0); // Cor vermelha
+                        if (veri3 == 0)
+                        {
+                            UsuarioVaga uv = new UsuarioVaga();
+                            uv.UsuarioId = 1;
+                            uv.VagaId = 1;
+                            veri3 = 1;
+                            await vService.PostUsuarioVagaAsync(uv);
+
+                        }
                     }
 
-                }
-                else
-                {
-                    await Application.Current.MainPage
-                        .DisplayAlert("Informação", "Dados incorretos :C", "Ok");
                 }
             }
             catch (Exception ex)
@@ -218,18 +259,22 @@ namespace AppEstacioneJa.ViewModels.Vagas
                     if (disponibilidadeTipoValue == 1)
                     {
                         BackgroundColor4 = new Color(25, 221, 8); // Cor verde
-
+                        veri4 = 0;
                     }
                     else
                     {
                         BackgroundColor4 = new Color(235, 0, 0); // Cor vermelha
+                        if (veri4 == 0)
+                        {
+                            UsuarioVaga uv = new UsuarioVaga();
+                            uv.UsuarioId = 1;
+                            uv.VagaId = 1;
+                            veri4 = 1;
+                            await vService.PostUsuarioVagaAsync(uv);
+
+                        }
                     }
 
-                }
-                else
-                {
-                    await Application.Current.MainPage
-                        .DisplayAlert("Informação", "Dados incorretos :C", "Ok");
                 }
             }
             catch (Exception ex)

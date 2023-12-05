@@ -16,9 +16,7 @@ namespace AppEstacioneJa.Models
         public string Emissor_pagamento { get; set; }
         public DateTime Ocupacao_inicial { get; set; }
         public DateTime Ocupacao_final { get; set; }
-        public Vaga Vaga { get; set; }
         public long VagaId { get; set; }
-        public Usuario Usuario { get; set; }
         public long UsuarioId { get; set; }
     }
 }
