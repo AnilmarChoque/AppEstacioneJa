@@ -27,22 +27,27 @@ namespace AppEstacioneJa.ViewModels.Vagas
             Device.StartTimer(TimeSpan.FromSeconds(1), () =>
             {
                 ObterDados2();
-                return true; // Repita a cada 5 minutos
+                return true;
             });
             Device.StartTimer(TimeSpan.FromSeconds(1), () =>
             {
                 ObterDados();
-                return true; // Repita a cada 5 minutos
+                return true;
             });
             Device.StartTimer(TimeSpan.FromSeconds(1), () =>
             {
                 ObterDados3();
-                return true; // Repita a cada 5 minutos
+                return true;
             });
             Device.StartTimer(TimeSpan.FromSeconds(1), () =>
             {
                 ObterDados4();
-                return true; // Repita a cada 5 minutos
+                return true;
+            });
+            Device.StartTimer(TimeSpan.FromSeconds(1), () =>
+            {
+                AtualizarRota();
+                return true;
             });
 
 
@@ -50,6 +55,7 @@ namespace AppEstacioneJa.ViewModels.Vagas
             _ = ObterDados2();
             _ = ObterDados3();
             _ = ObterDados4();
+            _ = AtualizarRota();
             InicializarCommands();
         }
         public void InicializarCommands()
@@ -126,10 +132,111 @@ namespace AppEstacioneJa.ViewModels.Vagas
             }
         }
 
+        private bool situacao1;
+        public bool Situacao1
+        {
+            get => situacao1;
+            set
+            {
+                situacao1 = value;
+                OnPropertyChanged(nameof(Situacao1));
+            }
+        }
+
+        private bool situacao2;
+        public bool Situacao2
+        {
+            get => situacao2;
+            set
+            {
+                situacao2 = value;
+                OnPropertyChanged(nameof(Situacao2));
+            }
+        }
+
+        private bool situacao3;
+        public bool Situacao3
+        {
+            get => situacao3;
+            set
+            {
+                situacao3 = value;
+                OnPropertyChanged(nameof(Situacao3));
+            }
+        }
+
+        private bool situacao4;
+        public bool Situacao4
+        {
+            get => situacao4;
+            set
+            {
+                situacao4 = value;
+                OnPropertyChanged(nameof(Situacao4));
+            }
+        }
+
         public int veri = 0;
         public int veri2 = 0;
         public int veri3 = 0;
         public int veri4 = 0;
+
+        public async Task AtualizarRota()
+        {
+            try
+            {
+                Vaga dados = await vService.GetVagaAsync(1);
+                Vaga dados2 = await vService.GetVagaAsync(2);
+                Vaga dados3 = await vService.GetVagaAsync(3);
+                Vaga dados4 = await vService.GetVagaAsync(4);
+
+                int disponibilidadeTipoValue = (int)dados.Disponibilidade;
+                int disponibilidadeTipoValue2 = (int)dados2.Disponibilidade;
+                int disponibilidadeTipoValue3 = (int)dados3.Disponibilidade;
+                int disponibilidadeTipoValue4 = (int)dados4.Disponibilidade;
+
+                if(disponibilidadeTipoValue == 1)
+                {
+                    Situacao1 = true;
+                    Situacao2 = false;
+                    Situacao3 = false;
+                    Situacao4 = false;
+                }
+                else if(disponibilidadeTipoValue2 == 1)
+                {
+                    Situacao1 = false;
+                    Situacao2 = true;
+                    Situacao3 = false;
+                    Situacao4 = false;
+                }
+                else if (disponibilidadeTipoValue3 == 1)
+                {
+                    Situacao1 = false;
+                    Situacao2 = false;
+                    Situacao3 = true;
+                    Situacao4 = false;
+                }
+                else if (disponibilidadeTipoValue4 == 1)
+                {
+                    Situacao1 = false;
+                    Situacao2 = false;
+                    Situacao3 = false;
+                    Situacao4 = true;
+                }
+                else
+                {
+                    Situacao1 = false;
+                    Situacao2 = false;
+                    Situacao3 = false;
+                    Situacao4 = false;
+                }
+            }
+            catch (Exception ex)
+            {
+                await Application.Current.MainPage
+                    .DisplayAlert("Informação", ex.Message + " Detalhes: " + ex.InnerException, "Ok");
+            }
+        }
 
         public async Task ObterDados()
         {
@@ -192,7 +299,7 @@ namespace AppEstacioneJa.ViewModels.Vagas
                         {
                             UsuarioVaga uv = new UsuarioVaga();
                             uv.UsuarioId = 1;
-                            uv.VagaId = 1;
+                            uv.VagaId = 2;
                             veri2 = 1;
                             await vService.PostUsuarioVagaAsync(uv);
 
@@ -230,7 +337,7 @@ namespace AppEstacioneJa.ViewModels.Vagas
                         {
                             UsuarioVaga uv = new UsuarioVaga();
                             uv.UsuarioId = 1;
-                            uv.VagaId = 1;
+                            uv.VagaId = 3;
                             veri3 = 1;
                             await vService.PostUsuarioVagaAsync(uv);
 
@@ -268,7 +375,7 @@ namespace AppEstacioneJa.ViewModels.Vagas
                         {
                             UsuarioVaga uv = new UsuarioVaga();
                             uv.UsuarioId = 1;
-                            uv.VagaId = 1;
+                            uv.VagaId = 4;
                             veri4 = 1;
                             await vService.PostUsuarioVagaAsync(uv);
 

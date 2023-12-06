@@ -3976,6 +3976,9 @@ C:\Users\anilm\Downloads\Etec\TCC\AppEstacioneJa\AppEstacioneJa\obj\Debug\net7.0
 C:\Users\anilm\Downloads\Etec\TCC\AppEstacioneJa\AppEstacioneJa\obj\Debug\net7.0-android\resizetizer\sp\values\maui_colors.xml
 C:\Users\anilm\Downloads\Etec\TCC\AppEstacioneJa\AppEstacioneJa\obj\Debug\net7.0-android\mauisplash.stamp
 C:\Users\anilm\Downloads\Etec\TCC\AppEstacioneJa\AppEstacioneJa\obj\Debug\net7.0-android\resizetizer\3E4017757CC97BD9-files.cache
+C:\Users\anilm\Downloads\Etec\TCC\AppEstacioneJa\AppEstacioneJa\obj\Debug\net7.0-android\resizetizer\r\drawable\destino.png
+C:\Users\anilm\Downloads\Etec\TCC\AppEstacioneJa\AppEstacioneJa\obj\Debug\net7.0-android\resizetizer\r\drawable\rota1.png
+C:\Users\anilm\Downloads\Etec\TCC\AppEstacioneJa\AppEstacioneJa\obj\Debug\net7.0-android\resizetizer\r\drawable\rota2.png
 C:\Users\anilm\Downloads\Etec\TCC\AppEstacioneJa\AppEstacioneJa\obj\Debug\net7.0-android\android\assets\mscorlib.dll
 C:\Users\anilm\Downloads\Etec\TCC\AppEstacioneJa\AppEstacioneJa\obj\Debug\net7.0-android\android\assets\System.Collections.Concurrent.dll
 C:\Users\anilm\Downloads\Etec\TCC\AppEstacioneJa\AppEstacioneJa\obj\Debug\net7.0-android\android\assets\System.Data.Common.dll
@@ -3989,3 +3992,7 @@ C:\Users\anilm\Downloads\Etec\TCC\AppEstacioneJa\AppEstacioneJa\obj\Debug\net7.0
 C:\Users\anilm\Downloads\Etec\TCC\AppEstacioneJa\AppEstacioneJa\obj\Debug\net7.0-android\android\assets\System.Runtime.Extensions.dll
 C:\Users\anilm\Downloads\Etec\TCC\AppEstacioneJa\AppEstacioneJa\obj\Debug\net7.0-android\android\assets\System.Runtime.Serialization.Formatters.dll
 C:\Users\anilm\Downloads\Etec\TCC\AppEstacioneJa\AppEstacioneJa\obj\Debug\net7.0-android\android\assets\System.Xml.dll
+C:\Users\anilm\Downloads\Etec\TCC\AppEstacioneJa\AppEstacioneJa\obj\Debug\net7.0-android\resizetizer\r\drawable\rota3.png
+C:\Users\anilm\Downloads\Etec\TCC\AppEstacioneJa\AppEstacioneJa\obj\Debug\net7.0-android\resizetizer\r\drawable\rota4.png
+C:\Users\anilm\Downloads\Etec\TCC\AppEstacioneJa\AppEstacioneJa\obj\Debug\net7.0-android\resizetizer\r\drawable\sair.png
+C:\Users\anilm\Downloads\Etec\TCC\AppEstacioneJa\AppEstacioneJa\obj\Debug\net7.0-android\resizetizer\r\drawable\tarifa.png

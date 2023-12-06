@@ -660,3 +660,10 @@ C:\Users\anilm\Downloads\Etec\TCC\AppEstacioneJa\AppEstacioneJa\obj\Debug\net7.0
 C:\Users\anilm\Downloads\Etec\TCC\AppEstacioneJa\AppEstacioneJa\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\mapa.scale-100.png
 C:\Users\anilm\Downloads\Etec\TCC\AppEstacioneJa\AppEstacioneJa\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\paineldevagas.scale-100.png
 C:\Users\anilm\Downloads\Etec\TCC\AppEstacioneJa\AppEstacioneJa\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\usuario.scale-100.png
+C:\Users\anilm\Downloads\Etec\TCC\AppEstacioneJa\AppEstacioneJa\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\destino.scale-100.png
+C:\Users\anilm\Downloads\Etec\TCC\AppEstacioneJa\AppEstacioneJa\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\rota1.scale-100.png
+C:\Users\anilm\Downloads\Etec\TCC\AppEstacioneJa\AppEstacioneJa\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\rota2.scale-100.png
+C:\Users\anilm\Downloads\Etec\TCC\AppEstacioneJa\AppEstacioneJa\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\rota3.scale-100.png
+C:\Users\anilm\Downloads\Etec\TCC\AppEstacioneJa\AppEstacioneJa\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\rota4.scale-100.png
+C:\Users\anilm\Downloads\Etec\TCC\AppEstacioneJa\AppEstacioneJa\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\sair.scale-100.png
+C:\Users\anilm\Downloads\Etec\TCC\AppEstacioneJa\AppEstacioneJa\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\tarifa.scale-100.png

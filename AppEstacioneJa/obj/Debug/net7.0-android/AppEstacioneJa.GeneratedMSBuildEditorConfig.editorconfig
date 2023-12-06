@@ -91,3 +91,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppEstacioneJa.Views.Vagas.ListagemVagasView.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Vagas\ListagemVagasView.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Vagas\ListagemVagasView.xaml
+
+[C:/Users/anilm/Downloads/Etec/TCC/AppEstacioneJa/AppEstacioneJa/Views/Vagas/RotaVagasView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppEstacioneJa.Views.Vagas.RotaVagasView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Vagas\RotaVagasView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Vagas\RotaVagasView.xaml

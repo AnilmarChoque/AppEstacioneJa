@@ -50,6 +50,9 @@
     <MauiXaml Update="Views\Usuarios\LoginView.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Views\Vagas\RotaVagasView.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Views\Vagas\ListagemVagasView.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

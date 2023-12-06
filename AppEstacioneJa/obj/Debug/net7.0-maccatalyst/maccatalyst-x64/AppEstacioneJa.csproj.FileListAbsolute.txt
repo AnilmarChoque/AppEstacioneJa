@@ -318,3 +318,10 @@ C:\Users\anilm\Downloads\Etec\TCC\AppEstacioneJa\AppEstacioneJa\obj\Debug\net7.0
 C:\Users\anilm\Downloads\Etec\TCC\AppEstacioneJa\AppEstacioneJa\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\estatisticas.png
 C:\Users\anilm\Downloads\Etec\TCC\AppEstacioneJa\AppEstacioneJa\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\fundoduvidas.png
 C:\Users\anilm\Downloads\Etec\TCC\AppEstacioneJa\AppEstacioneJa\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\paineldevagas.png
+C:\Users\anilm\Downloads\Etec\TCC\AppEstacioneJa\AppEstacioneJa\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\destino.png
+C:\Users\anilm\Downloads\Etec\TCC\AppEstacioneJa\AppEstacioneJa\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\rota1.png
+C:\Users\anilm\Downloads\Etec\TCC\AppEstacioneJa\AppEstacioneJa\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\rota2.png
+C:\Users\anilm\Downloads\Etec\TCC\AppEstacioneJa\AppEstacioneJa\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\rota3.png
+C:\Users\anilm\Downloads\Etec\TCC\AppEstacioneJa\AppEstacioneJa\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\rota4.png
+C:\Users\anilm\Downloads\Etec\TCC\AppEstacioneJa\AppEstacioneJa\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\sair.png
+C:\Users\anilm\Downloads\Etec\TCC\AppEstacioneJa\AppEstacioneJa\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\tarifa.png

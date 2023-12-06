@@ -1843,6 +1843,9 @@
     <AppxPackagedFile Include="C:\Users\anilm\Downloads\Etec\TCC\AppEstacioneJa\AppEstacioneJa\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\deficiente.scale-100.png">
       <PackagePath>deficiente.scale-100.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\anilm\Downloads\Etec\TCC\AppEstacioneJa\AppEstacioneJa\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\destino.scale-100.png">
+      <PackagePath>destino.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anilm\Downloads\Etec\TCC\AppEstacioneJa\AppEstacioneJa\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
     </AppxPackagedFile>
@@ -1887,6 +1890,24 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anilm\Downloads\Etec\TCC\AppEstacioneJa\AppEstacioneJa\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\paineldevagas.scale-100.png">
       <PackagePath>paineldevagas.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\anilm\Downloads\Etec\TCC\AppEstacioneJa\AppEstacioneJa\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\rota1.scale-100.png">
+      <PackagePath>rota1.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\anilm\Downloads\Etec\TCC\AppEstacioneJa\AppEstacioneJa\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\rota2.scale-100.png">
+      <PackagePath>rota2.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\anilm\Downloads\Etec\TCC\AppEstacioneJa\AppEstacioneJa\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\rota3.scale-100.png">
+      <PackagePath>rota3.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\anilm\Downloads\Etec\TCC\AppEstacioneJa\AppEstacioneJa\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\rota4.scale-100.png">
+      <PackagePath>rota4.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\anilm\Downloads\Etec\TCC\AppEstacioneJa\AppEstacioneJa\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\sair.scale-100.png">
+      <PackagePath>sair.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\anilm\Downloads\Etec\TCC\AppEstacioneJa\AppEstacioneJa\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\tarifa.scale-100.png">
+      <PackagePath>tarifa.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anilm\Downloads\Etec\TCC\AppEstacioneJa\AppEstacioneJa\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\usuario.scale-100.png">
       <PackagePath>usuario.scale-100.png</PackagePath>
